@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Wisdom Pet Medicine</title>
+    <!-- <link rel="stylesheet" id="ample-style-css" href="/css/master.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body class="wide">
+    <div id="page" class="hfeed site">
+      <header>
+        <div class="header">
+          <div class="main-head-wrap inner-wrap clearfix">
+            <div id="header-logo-image">
+              <a href="/">
+
+              </a>
+            </div>
+            <div id="header-text">
+              <h1 id="site-title">
+                <a href="/" title="Wisdom Pet Medicine"></a>
+              </h1>
+              <p>We treat your pets like we treat our own.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main-wrapper">
+        <div class="single-page clearfix">
+          <div class="inner-wrap">
+            <p>
+              Wisdom Pets
+            </p>
+            <hr>
+            <div>
+              {% block content %}
+              {% endblock %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="colophon">
+        <div class="inner-wrap">
+          Wisdom pets
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
